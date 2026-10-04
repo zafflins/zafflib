@@ -1,0 +1,13 @@
+{
+  "main": {
+    "defines": ["ZL_BUILD_DLL"],
+    "flags": ["-Wall", "-Werror", "-std=c99"],
+
+    "includes": ["include"],
+    "sources": ["src/zl.c"],
+
+    "dest": "bin",
+    "name": "zl",
+    "type": "lib"
+  }
+}
