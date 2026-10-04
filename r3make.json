@@ -1,7 +1,7 @@
 {
   "main": {
     "defines": ["ZL_BUILD_DLL"],
-    "flags": ["-Wall", "-Werror", "-std=c99"],
+    "ccflags": ["Wall", "Werror", "std=c99"],
 
     "includes": ["include"],
     "sources": ["src/zl.c"],
